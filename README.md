@@ -23,7 +23,7 @@ Here is how the data flows from raw text to the final dashboard:
 ## What I Found (The Insights)
 
 1. **The AI Actually Gets It:** FinBERT did a surprisingly good job telling hype from panic. The statistical tests proved that days with positive news had significantly higher average returns than days with negative news.
-2. **The Strategy Made Money (On Paper):** When backtesting in Power BI, a simple strategy—only buying stocks on days when the AI sentiment was positive—resulted in a solid, compounding return with a **68.38% Win Rate** across 2018-2020.
+2. **The Strategy Made Money (On Paper):** When backtesting in Power BI, a simple strategy—only buying stocks on days when the AI sentiment was positive—resulted in a solid, compounding return with a **68.55% Win Rate** across 2018-2020.
 3. **The Market Does Not Wait:** Testing confirmed the Efficient Market Hypothesis. Yesterday's news is already old news. The market reacts to the sentiment on the *exact same day*, meaning a real-world trading bot would need to act lightning-fast.
 
 ---
