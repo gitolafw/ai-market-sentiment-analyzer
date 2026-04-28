@@ -32,15 +32,15 @@ Here is how the data flows from raw text to the final dashboard:
 
 ### 1. Executive Market Overview
 *The big picture: KPIs, quarterly trends, and media hype share.*
-![Executive Overview](/images/executive_market_overview.png.png)
+![Executive Overview](/images/executive_market_overview.png)
 
 ### 2. AI Sentiment Deep Dive
 *Proving the concept: FinBERT's mood swings and a scatter plot showing how sentiment correlates with returns.*
-![Sentiment Deep Dive](/images/ai_sentiment_deep_dive.png.png)
+![Sentiment Deep Dive](/images/ai_sentiment_deep_dive.png)
 
 ### 3. Strategy Backtesting
 *The money shot: A dynamic simulation of cumulative profits if we actually followed the AI's advice.*
-![Strategy Backtesting](/images/strategy_backtesting.png.png)
+![Strategy Backtesting](/images/strategy_backtesting.png)
 
 ---
 
