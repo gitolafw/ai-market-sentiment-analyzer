@@ -4,12 +4,12 @@
 
 This project is a full end-to-end data journey. I wanted to see what happens when you feed thousands of financial news headlines to an AI, map its sentiment to historical stock prices, and backtest a trading strategy.
 
-## 🎯 The Big Question
+## The Big Question
 Can an AI accurately read the daily news, predict tech stock movements, and actually serve as a profitable trading signal?
 
 ---
 
-## 🛠️ How It Was Built (The Tech Stack)
+## How It Was Built (The Tech Stack)
 
 Here is how the data flows from raw text to the final dashboard:
 
@@ -20,7 +20,7 @@ Here is how the data flows from raw text to the final dashboard:
 
 ---
 
-## 📊 What I Found (The Insights)
+## What I Found (The Insights)
 
 1. **The AI Actually Gets It:** FinBERT did a surprisingly good job telling hype from panic. The statistical tests proved that days with positive news had significantly higher average returns than days with negative news.
 2. **The Strategy Made Money (On Paper):** When backtesting in Power BI, a simple strategy—only buying stocks on days when the AI sentiment was positive—resulted in a solid, compounding return with a **68.38% Win Rate** across 2018-2020.
@@ -28,7 +28,7 @@ Here is how the data flows from raw text to the final dashboard:
 
 ---
 
-## 📸 Dashboard Previews
+## Dashboard Previews
 
 ### 1. Executive Market Overview
 *The big picture: KPIs, quarterly trends, and media hype share.*
@@ -44,10 +44,13 @@ Here is how the data flows from raw text to the final dashboard:
 
 ---
 
-## ⚙️ Want to Run It Yourself?
+## Want to Run It Yourself?
 
 1. **Get the Data:** Run `01_stock_data_ingestion.ipynb` to pull the financial numbers.
 2. **Extract News:** Run `02a_kaggle_extraction.ipynb` to parse the massive raw CSV file in manageable chunks.
 3. **Let the AI Read:** Execute `02b_sentiment_analysis.ipynb` so FinBERT can score the extracted headlines.
 4. **Merge It All:** Use `03_stock_data_merger.ipynb` to marry the stock prices with the AI sentiment and build the SQLite database.
 5. **Play with the Dashboard:** Open the `.pbix` file in Power BI Desktop to check out the visuals and the backtesting engine.
+
+
+The raw dataset (6GB) used for this project comes from Kaggle: [[Link](https://www.kaggle.com/datasets/psychosphinx15/fnspid-news-articles-dataset)]. Due to GitHub's file size limits, the raw data is not included, but the pre-processed output is provided in the repository for immediate use.
